@@ -18,47 +18,47 @@ int main()
 			std::cout << a + "\n";
 			a[i] = a[i] + 1;
 			std::cout << a + "\n";
-		}
-		for (int ii = 0; ii <= 7; ii++)
-		{
+			
 
-			while (a[i - 1] != '9')
-			{
-				std::cout << a + "\n";
-				a[i - 1] = a[i - 1] + 1;
-				std::cout << a + "\n";
-			}
-			while (a[i - 2] != '9')
-			{
-				std::cout << a + "\n";
-				a[i - 2] = a[i - 2] + 1;
-				std::cout << a + "\n";
-			}
-			while (a[i - 3] != '9')
-			{
-				std::cout << a + "\n";
-				a[i - 3] = a[i - 3] + 1;
-				std::cout << a + "\n";
-			}
-			while (a[i - 4] != '9')
-			{
-				std::cout << a + "\n";
-				a[i - 4] = a[i - 4] + 1;
-				std::cout << a + "\n";
-			}
-			while (a[i - 5] != '9')
-			{
-				std::cout << a + "\n";
-				a[i - 5] = a[i - 5] + 1;
-				std::cout << a + "\n";
-			}
-			while (a[i - 6] != '9')
-			{
-				std::cout << a + "\n";
-				a[i - 6] = a[i - 6] + 1;
-				std::cout << a + "\n";
-			}
+		}	
+		while (a[i + 1] != '9')
+		{
+			std::cout << a + "\n";
+			a[i - 1] = a[i - 1] + 1;
+			std::cout << a + "\n";
+		
 		}
+		while (a[i + 2] != '9')
+		{
+			std::cout << a + "\n";
+			a[i - 2] = a[i - 2] + 1;
+			std::cout << a + "\n";
+		}
+		while (a[i + 3] != '9')
+		{
+			std::cout << a + "\n";
+			a[i - 3] = a[i - 3] + 1;
+			std::cout << a + "\n";
+		}
+		while (a[i + 4] != '9')
+		{
+			std::cout << a + "\n";
+			a[i - 4] = a[i - 4] + 1;
+			std::cout << a + "\n";
+		}
+		while (a[i + 5] != '9')
+		{
+			std::cout << a + "\n";
+			a[i - 5] = a[i - 5] + 1;
+			std::cout << a + "\n";
+		}
+		while (a[i + 6] != '9')
+		{
+			std::cout << a + "\n";
+			a[i - 6] = a[i - 6] + 1;
+			std::cout << a + "\n";
+		}
+
 
 		//while (a[i - 7] != '9')
 		//{
